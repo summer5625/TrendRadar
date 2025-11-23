@@ -71,7 +71,7 @@ notification:
   #
   webhooks:
     feishu_url: "" # 飞书机器人的 webhook URL
-    dingtalk_url: "" # 钉钉机器人的 webhook URL
+    dingtalk_url: "https://oapi.dingtalk.com/robot/send?access_token=2f0a8cb93af725634f2e52ef662861bf3af6fab1abff1e22d2fe55e0a7e5e126" # 钉钉机器人的 webhook URL
     wework_url: "" # 企业微信机器人的 webhook URL
     wework_msg_type: "markdown" # 企业微信消息类型：markdown(群机器人) 或 text(个人微信应用)
     telegram_bot_token: "" # Telegram Bot Token
